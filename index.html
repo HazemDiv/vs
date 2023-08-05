@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="master.css">
+    <title>Code</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="overflow-js" class="game">
+        <button class="go" onclick="hideDiv()">Go Code</button>
+    </div>
+    <center>
+        <textarea id="codeEditor" placeholder="Enter You Code"></textarea>
+        <button id="myButton" onclick="toggleList()" class="burger">• Other Settings •</button>
+        <div id="Nav-List" class="myList" style="height: 0px;">
+            <div class="editor-buttons">
+                <button id="resetButton">Reset The Code</button>
+                <button id="runButton">Run The Code</button>
+                <button id="copyHTMLButton">Capy HTML Code</button>
+            </div>
+        </div>
+        <iframe id="outputFrame"></iframe>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>

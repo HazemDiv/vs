@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-corner {
+    background-color: rgba(15 15 15);
+}
+
+body {
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background-color: rgba(18 18 18);
+}
+
+h1 {
+    color: white;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 10px 0;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+textarea {
+    margin-top: 20%;
+    color: white;
+    background-color: rgba(25 25 25);
+    min-width: 303px;
+    min-height: 300px;
+    padding: 6px 10px;
+    font-size: 1em;
+    margin-bottom: -6px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: none;
+}
+
+*::placeholder {
+    color: white;
+}
+
+button {
+    width: 90%;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid white;
+    transition: 0.1s;
+    color: white;
+    background-color: rgba(255 255 255 / 15%);
+}
+
+.game {
+    width: 100%;
+    height: 95%;
+    z-index: 999;
+    background-color: rgba(18 18 18);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.go {
+    padding: 15px 30px;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: fit-content;
+}
+
+.editor-buttons {
+    border-radius: 5px;
+    padding: 15px 0;
+    margin: 10px 0;
+    width: 303px;
+    border: 1px solid white;
+    background-color: rgba(25 25 25);
+}
+
+button:active {
+    background-color: rgba(255 255 255 /25%);
+}
+
+.myList {
+    transition: height 0.3s ease;
+    height: 0px;
+    width: 303px;
+    overflow: hidden;
+}
+
+.burger {
+    font-size: 1em;
+    font-weight: 600;
+    width: 300px;
+    background-color: rgba(25 25 25);
+    margin: 10px;
+}
+
+iframe {
+    border-radius: 5px;
+    overflow: scroll;
+    background-color: rgba(25 25 25);
+    min-width: 300px;
+    min-height: 300px;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+}
